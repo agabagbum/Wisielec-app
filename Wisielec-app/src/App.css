@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  margin: 50px;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background-color: #ddd;
+}
